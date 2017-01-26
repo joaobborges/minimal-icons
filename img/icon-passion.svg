@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="122px" height="105px" viewBox="0 0 122 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-passion</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="54 0 94 0 74 30"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.196671196 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="27 39 67 39 47 69"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.196671196 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="0 0 40 0 20 30"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.196671196 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-7" points="7 3 87 3 47 63"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.196671196 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M12.5995646,19 C12.5995646,19 17.8051515,15.9692077 18.9178909,12.5742178 C19.7076821,10.1645495 18.8961931,6.97928822 15.7587281,7.00010147 C12.6212631,7.02091473 12.5995649,11.0756125 12.5995649,11.0756125 C12.5995649,11.0756125 12.5995646,7.00010147 9.45402089,7.00010147 C6.30847721,7.00010147 5.49144739,10.1645495 6.28123819,12.5742178 C7.39185891,15.962745 12.5995646,19 12.5995646,19 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="17.2" height="16">
+            <rect x="4" y="5" width="17.2" height="16" fill="white"></rect>
+            <use xlink:href="#path-9" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop-copy-2" transform="translate(-257.000000, -628.000000)">
+            <g id="Group-4-Copy" transform="translate(170.000000, 647.000000)">
+                <g id="icon-passion" transform="translate(101.000000, 0.000000)">
+                    <g id="Rectangle-5-Copy" opacity="0.300000012">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Rectangle-5-Copy-3" opacity="0.300000012">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Rectangle-5-Copy-2" opacity="0.300000012">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="Rectangle-5">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <g id="ic-heart" transform="translate(34.000000, 12.000000)">
+                        <use id="Oval-10" stroke="#4196E3" mask="url(#mask-10)" stroke-width="4" xlink:href="#path-9"></use>
+                        <path d="M10,8 C9.60861275,8 9.09159166,8.08617018 8.5527864,8.35557281 C7.60020774,8.83186214 7,9.73217375 7,11 C7,11.5522847 7.44771525,12 8,12 C8.55228475,12 9,11.5522847 9,11 C9,10.5178263 9.14979226,10.2931379 9.4472136,10.1444272 C9.65840834,10.0388298 9.89138725,10 10,10 C10.5522847,10 11,9.55228475 11,9 C11,8.44771525 10.5522847,8 10,8 L10,8 Z" id="Path-27" fill="#4196E3" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
