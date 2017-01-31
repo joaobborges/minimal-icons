@@ -121,6 +121,7 @@ p {
   background-size: 822px 359px;
   background-repeat: no-repeat;
   background-position: 258px 48px;
+	margin-bottom: 100px;
 }
 .hero h1 {
   font-size: 32px;
@@ -160,10 +161,65 @@ p {
 
 .features {
 
-  height: 470px;
+  height: 320px;
   width: 100%;
-  background: url("../img/section-bg.svg") center no-repeat;
   position: relative;
+	background-image: linear-gradient(-90deg, #26BBD4 0%, #7154FF 100%);
+}
+.features:before {
+	top: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 0 100%;
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+.features:after {
+	bottom: 0;
+	transform: skewY(-2.5deg);
+	transform-origin: 100% 0;
+	background: inherit;
+	content: '';
+	display: block;
+	height: 50%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: -1;
+}
+.bg-features:before {
+	top: 0;
+  transform: skewY(2deg);
+  transform-origin: 100% 0;
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -2;
+  background: rgba(41,181,214,0.15);
+}
+
+.bg-features:after {
+	bottom: 0;
+  transform: skewY(2deg);
+  transform-origin: -40% 0;
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -2;
+  background: rgba(111,87,254,0.15);
 }
 
 .features h2, .features p {
@@ -197,7 +253,7 @@ color: #FFFFFF;
 }
 
 footer {
-  margin-top:100px;
+  margin-top:150px;
   margin-bottom: 50px;
   height: 100px;
   font-size: 14px;
