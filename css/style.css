@@ -53,9 +53,14 @@ html {
 /* My Styles */
 
 /* Global */
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
 .container {
   width: 80%;
-  height: 100%;
+	max-width: 1200px;
   display: block;
   margin:0 auto;
   position: relative;
@@ -80,11 +85,12 @@ a:hover {
   float: left;
   display: inline-block;
   width: 33.333%;
+	min-width: 300px;
   padding: 30px;
-  height: 200px;
+  min-height: 260px;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+	overflow: hidden;
+	margin:50px 0;
 }
 body {
   font-family: 'Cabin', sans-serif;
@@ -160,8 +166,6 @@ p {
 }
 
 .features {
-
-  height: 320px;
   width: 100%;
   position: relative;
 	background-image: linear-gradient(-90deg, #26BBD4 0%, #7154FF 100%);
@@ -267,4 +271,43 @@ footer a {
 
 footer span {
   margin:0 10px;
+}
+
+/* Media Queries */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+
+		.left {
+			float: none;
+			display: block;
+		}
+		.right {
+			float: none;
+			display: block;
+		}
+		footer {
+			margin-top:50px;
+			margin-bottom: 0px;
+		}
+		.author, .more {
+			text-align: center;
+		}
+		.author {
+			margin-bottom: 20px;
+		}
+		.col {
+			min-height: auto;
+			margin: 20px 0;
+			width: 100%;
+		}
+		.container {
+
+			width:100%;
+		}
+		.hero {
+			margin-bottom: 20px;
+		}
 }
