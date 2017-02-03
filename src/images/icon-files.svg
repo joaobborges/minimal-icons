@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-files</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="30"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.196671196 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="35" cy="35" r="35"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.196671196 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop-copy-2" transform="translate(-590.000000, -624.000000)">
+            <g id="Group-4-Copy-2" transform="translate(500.000000, 645.000000)">
+                <g id="icon-files" transform="translate(113.000000, 0.000000)">
+                    <g id="Oval-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Oval-2-Copy" opacity="0.300000012">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="ic-file" transform="translate(22.000000, 22.000000)" fill="#4196E3">
+                        <g id="Group-Copy-5" transform="translate(6.000000, 3.000000)">
+                            <rect id="Rectangle-12" x="3" y="6" width="8" height="2" rx="1"></rect>
+                            <rect id="Rectangle-12-Copy-2" x="3" y="9" width="6" height="2" rx="1"></rect>
+                            <rect id="Rectangle-12-Copy-3" x="3" y="12" width="4" height="2" rx="1"></rect>
+                            <path d="M2,3.00087166 L2,3.00087166 L2,16.9991283 C2,17.5553691 2.44565467,18 2.99539757,18 L11.0046024,18 C11.5443356,18 12,17.5520947 12,16.9995756 L12,5.97539999 C12,5.42332641 11.6862911,4.65932394 11.2993117,4.2699479 L9.7440233,2.70502769 C9.35974991,2.3183745 8.59152841,2 8.03419679,2 L3.00913817,2 C2.44059215,2 2,2.4481055 2,3.00087166 L2,3.00087166 Z M0,3.00087166 L0,3.00087166 C0,1.33943216 1.34012837,0 3.00913817,0 L8.03419679,0 C9.12090552,0 10.4006434,0.528515418 11.1625957,1.29518642 L12.717884,2.86010663 C13.4778693,3.62479848 14,4.8958765 14,5.97539999 L14,16.9995756 C14,18.6540584 12.6515192,20 11.0046024,20 L2.99539757,20 C1.33850596,20 0,18.6573604 0,16.9991283 L0,3.00087166 Z" id="Rectangle-156" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

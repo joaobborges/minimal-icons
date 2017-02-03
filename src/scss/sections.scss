@@ -1,0 +1,148 @@
+/**
+* Section: Hero
+*/
+.hero {
+    height: 384px;
+    background: url("../images/background-hero.svg") no-repeat;
+    background-size: 822px 359px;
+    background-position: 258px 48px;
+    margin-bottom: 100px;
+
+    h1 {
+        font-size: 32px;
+        line-height: 48px;
+        color: #7154FF;
+        font-weight: 500;
+        text-align: center;
+        display: block;
+        padding: 125px 0 0;
+    }
+
+    .button {
+        height: 48px;
+        width: 200px;
+        border-radius: 30px;
+        color: #FFFFFF;
+        background: #7154FF;
+        background-image: linear-gradient(-90deg, #26BBD4 0%, #7154FF 100%);
+        display: block;
+        text-decoration: none;
+        margin: 50px auto 0;
+        text-align: center;
+        font-size: 14px;
+        line-height: 48px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        transition: transform .12s ease-in-out, color .12s ease-in-out;
+
+        &:hover {
+            color: #FFFFFF;
+            transform: scale(1.1);
+            background-image: linear-gradient(-90deg, #7154FF 0%, #7154FF 100%);
+            transition: transform .12s ease-in-out, color .12s ease-in-out;
+            cursor: pointer
+        }
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        margin-bottom: 20px;
+    }
+}
+
+/**
+* Section: Features
+*/
+.features {
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(-90deg, #26BBD4 0%, #7154FF 100%);
+
+    h2,
+    p {
+        text-align: center;
+        display: block;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+        margin: 80px 0 20px 0;
+        color: #FFFFFF;
+    }
+
+    p {
+        opacity: 0.9;
+        color: #FFFFFF;
+    }
+
+    .col-one {
+        background: url("../images/icon-passion.svg") top center no-repeat;
+    }
+
+    .col-two {
+        background: url("../images/icon-files.svg") top center no-repeat;
+    }
+
+    .col-three {
+        background: url("../images/icon-grid.svg") top center no-repeat;
+    }
+
+    &:before {
+        top: 0;
+        transform: skewY(-2.5deg);
+        transform-origin: 0 100%;
+        background: inherit;
+        content: '';
+        display: block;
+        height: 50%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+
+    &:after {
+        bottom: 0;
+        transform: skewY(-2.5deg);
+        transform-origin: 100% 0;
+        background: inherit;
+        content: '';
+        display: block;
+        height: 50%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+
+    .bg-features {
+        &:before {
+            top: 0;
+            transform: skewY(2deg);
+            transform-origin: 100% 0;
+            content: '';
+            display: block;
+            height: 50%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            z-index: -2;
+            background: rgba(41, 181, 214, 0.15);
+        }
+
+        &:after {
+            bottom: 0;
+            transform: skewY(2deg);
+            transform-origin: -40% 0;
+            content: '';
+            display: block;
+            height: 50%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            z-index: -2;
+            background: rgba(111, 87, 254, 0.15);
+        }
+    }
+}

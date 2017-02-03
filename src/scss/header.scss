@@ -1,0 +1,31 @@
+header {
+    height: 96px;
+    width: 100%;
+
+    .header-more {
+        padding: 62px 0 0 0;
+        font-size: 14px;
+        color: #CCCCCC;
+    }
+
+    .logo {
+        font-size: 16px;
+        color: #7154FF;
+        font-weight: 500;
+        padding: 62px 0 0 0;
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .container {
+            width: 80%;
+
+            .left {
+                float: left;
+            }
+
+            .right {
+                float: right;
+            }
+        }
+    }
+}

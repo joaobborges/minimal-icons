@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="470px" viewBox="0 0 1440 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>section-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="6.24500451e-15%" x2="100%" y2="6.24500451e-15%" id="linearGradient-1">
+            <stop stop-color="#26BBD4" offset="0%"></stop>
+            <stop stop-color="#7154FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop-copy-2" transform="translate(0.000000, -502.000000)">
+            <g id="section-bg" transform="translate(0.000000, 502.000000)">
+                <polygon id="Rectangle-Copy" fill-opacity="0.151890851" fill="#2AB5D6" points="0 80 1440 30 1440 330 0 410"></polygon>
+                <polygon id="Rectangle-Copy-2" fill-opacity="0.15" fill="#6F57FE" transform="translate(720.000000, 280.000000) scale(1, -1) translate(-720.000000, -280.000000) " points="0 130 1440 160 1440 430 0 420"></polygon>
+                <polygon id="Rectangle" fill="url(#linearGradient-1)" points="0 110 1440 0 1440 370 0 470"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

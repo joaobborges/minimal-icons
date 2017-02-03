@@ -1,0 +1,45 @@
+.container {
+    width: 80%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+
+    &.container-center {
+        text-align: center;
+    }
+    
+    .col {
+        display: inline-block;
+        width: 33%;
+        min-width: 300px;
+        padding: 30px;
+        min-height: 260px;
+        position: relative;
+        overflow: hidden;
+        margin: 50px 0;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        width: 100%;
+        
+        .col {
+            min-height: auto;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        .left,
+        .right {
+            float: none;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import 'reset';
+@import 'grid';
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #cccccc;
+
+    &:hover {
+        color: #B3B3B3;
+    }
+}
+
+p {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+@import 'header';
+@import 'sections';
+@import 'footer';

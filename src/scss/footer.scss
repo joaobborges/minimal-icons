@@ -1,0 +1,29 @@
+footer {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    height: 100px;
+    font-size: 14px;
+    color: #CCCCCC;
+
+    a {
+        color: #CCCCCC;
+    }
+
+    span {
+        margin: 0 10px;
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        
+        .author,
+        .more {
+            text-align: center;
+        }
+        
+        .author {
+            margin-bottom: 20px;
+        }
+    }
+}
