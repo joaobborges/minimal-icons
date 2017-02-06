@@ -1,2 +1,2 @@
 # Minimal Icons
-![Preview Image](/preview.png?raw=true "Preview Image")
+![Alt text](/../master/preview.png?raw=true "Optional Title")
