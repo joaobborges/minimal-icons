@@ -1,2 +1,2 @@
 # Minimal Icons
-![Alt text](/../master/preview.png?raw=true "Optional Title")
+![Icon Preview](https://raw.github.com/joaobborges/minimal-icons/master/preview.png)
