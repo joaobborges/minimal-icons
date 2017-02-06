@@ -1,2 +1,2 @@
 # Minimal Icons
-![preview](preview.png)
+![Preview Image](preview.png?raw=true "Preview Image")
