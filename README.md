@@ -1,2 +1,2 @@
 # Minimal Icons
-![Icon Preview](https://raw.github.com/joaobborges/minimal-icons/master/preview.png)
+![Icon Preview](../preview.png)
