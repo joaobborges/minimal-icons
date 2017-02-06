@@ -1,2 +1,2 @@
 # Minimal Icons
-![Icon Preview](../master/preview.png)
+![Icon Preview](preview.png)
