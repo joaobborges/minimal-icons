@@ -1,2 +1,2 @@
 # Minimal Icons
-![Unsplash It Sketch Plugin Icon](Preview.png?raw=true "Unsplash It Sketch Plugin Icon")
+<img src="Preview.png?raw=true" alt="Preview Image" width="450" height="150">
