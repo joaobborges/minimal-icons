@@ -1,2 +1,2 @@
 # Minimal Icons
-![Icon Preview](preview.png)
+![Unsplash It Sketch Plugin Icon](Preview.png?raw=true "Unsplash It Sketch Plugin Icon")
