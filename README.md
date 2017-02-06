@@ -1,2 +1,2 @@
 # Minimal Icons
-![icon-preview](preview.png)
+!preview(preview.png)
