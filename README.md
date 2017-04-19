@@ -1,2 +1,13 @@
 # Minimal Icons
-<img src="Preview.png?raw=true" alt="Preview Image" width="368" height="368">
+# Free Ever Growing Collection of 100+ Minimal Icons for Designers and Developers.
+
+Minimal Icons is a free icon set, it works perfectly for your apps or web projects. You may use these icons for both commercial and personal projects.
+
+The download includes:
+* PNG
+* SVG
+* PDF
+* Sketch
+
+
+<img src="Preview.png?raw=true" alt="Preview Image" width="396" height="396">
