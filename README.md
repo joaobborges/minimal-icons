@@ -1,5 +1,5 @@
 # Minimal Icons
-# Free Ever Growing Collection of 100+ Minimal Icons for Designers and Developers.
+# Free Ever-Growing Collection of 100+ Minimal Icons for Designers and Developers.
 
 <img src="Preview.png?raw=true" alt="Preview Image" width="396" height="396">
 
